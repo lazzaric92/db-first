@@ -19,12 +19,12 @@ n_cilindri              TINYINT             UNSIGNED            NOT_NULL
 hp                      TINYINT             UNSIGNED            NULL
 trasmissione            VARCHAR(25)         NULL
 tipo_cambio             VARCHAR(50)         NULL
-n_posti                 TINYINT             UNSIGNED            NULL
-n_porte                 TINYINT             UNSIGNED            NULL
-mm_larghezza            SMALLINT             UNSIGNED            NULL
-mm_lunghezza            SMALLINT             UNSIGNED            NULL
-mm_altezza              SMALLINT             UNSIGNED            NULL
-l_bagagliaio            SMALLINT             UNSIGNED            NULL
+n_posti                 TINYINT             UNSIGNED            NOT_NULL
+n_porte                 TINYINT             UNSIGNED            NOT_NULL
+mm_larghezza            SMALLINT            UNSIGNED            NOT_NULL
+mm_lunghezza            SMALLINT            UNSIGNED            NOT_NULL
+mm_altezza              SMALLINT            UNSIGNED            NOT_NULL
+l_bagagliaio            SMALLINT            UNSIGNED            NULL
 tipo_cerchi             VARCHAR(25)         NULL
 CO2                     VARCHAR(25)         NULL
 airbag                  BOOLEAN             NULL
