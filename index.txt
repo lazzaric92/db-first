@@ -1,0 +1,16 @@
+! Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario
+
+
+id                  MEDIUMINT           PRIMARY_KEY         AUTO_INCREMENT          NOT_NULL
+marca               VARCHAR(25)         NOT_NULL
+modello             VARCHAR(25)         NOT_NULL
+n_anni              TINYINT             UNSIGNED            DEFAULT(0)
+n_targa             VARCHAR(7)          UNIQUE              NOT_NULL
+n_telaio            VARCHAR(17)         UNIQUE              NOT_NULL
+alimentazione       VARCHAR(50)         NOT_NULL
+prezzo_base         MEDIUMINT           UNSIGNED            NOT_NULL
+n_km                MEDIUMINT           UNSIGNED            NOT_NULL                DEFAULT(0)
+n_tagliandi         TINYINT             UNSIGNED            NULL
+n_incidenti         TINYINT             UNSIGNED            NULL
+disponibilità       BOOLEAN             NOT_NULL
+
