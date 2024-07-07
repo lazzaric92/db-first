@@ -15,17 +15,22 @@ n_tagliandi             TINYINT             UNSIGNED            NULL
 n_incidenti             TINYINT             UNSIGNED            NULL
 disponibilità           BOOLEAN             NOT_NULL
 cilindrata              SMALLINT            UNSIGNED            NOT_NULL
+n_cilindri              TINYINT             UNSIGNED            NOT_NULL
 hp                      TINYINT             UNSIGNED            NULL
 trasmissione            VARCHAR(25)         NULL
 tipo_cambio             VARCHAR(50)         NULL
 n_posti                 TINYINT             UNSIGNED            NULL
+n_porte                 TINYINT             UNSIGNED            NULL
+mm_larghezza            SMALLINT             UNSIGNED            NULL
+mm_lunghezza            SMALLINT             UNSIGNED            NULL
+mm_altezza              SMALLINT             UNSIGNED            NULL
+l_bagagliaio            SMALLINT             UNSIGNED            NULL
 tipo_cerchi             VARCHAR(25)         NULL
-tipo_fari               VARCHAR(25)         NULL
-climatizzata            BOOLEAN             NULL
-airbag                  BOOLEAN             NULL
-navigatore              BOOLEAN             NULL
 CO2                     VARCHAR(25)         NULL
+airbag                  BOOLEAN             NULL
+climatizzata            BOOLEAN             NULL
 colore                  VARCHAR(25)         NULL
 origine                 VARCHAR(25)         NULL
 garanzia                VARCHAR(50)         NULL
+note                    TEXT                NULL
 
