@@ -29,6 +29,7 @@ tipo_cerchi             VARCHAR(25)         NULL
 CO2                     VARCHAR(25)         NULL
 airbag                  BOOLEAN             NULL
 climatizzata            BOOLEAN             NULL
+navigatore              BOOLEAN             NULL
 colore                  VARCHAR(25)         NULL
 origine                 VARCHAR(25)         NULL
 garanzia                VARCHAR(50)         NULL
